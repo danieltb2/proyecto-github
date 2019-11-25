@@ -15,6 +15,10 @@ public class ProyectoGithub {
      * @param args the command line arguments
      */
     static String veredicto(String valor1, String valor2) {
+        /*En este metodo estan los parametros valor1 y valor2 los cuales
+        simbolizan la nota que querias sacar y la nota que tienes 
+        respectivamente, como la nota que quería sacar era 10 y me he sacado un 9 el resultado es:
+        "Te has confiado. Falta realismo".*/
         if (valor1.equals(valor2)) {
             return "Perfecto. Has tenido buen criterio.";
         }
