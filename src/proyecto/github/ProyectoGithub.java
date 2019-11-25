@@ -23,7 +23,7 @@ public class ProyectoGithub {
         }
         return "Te has confiado. Falta realismo.";
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Daniel Terol Barbero
         // TODO code application logic here
         System.out.println("La calificación de " + args[0] + " : "+ args[2]);
         System.out.println(veredicto(args[1], args[2]));
